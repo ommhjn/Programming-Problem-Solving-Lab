@@ -1,6 +1,7 @@
-inp=input()
+str=input()
 char = ""
-for i in inp:
-	if i.isalnum() or i.isspace():
-		char+=i
+l=len(str)
+for i in range(0,l):
+	if str[i].isalnum() or str[i].isspace():
+		char+=str[i]
 print(char)
